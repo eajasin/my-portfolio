@@ -1,5 +1,5 @@
 body {
-  background-color: #ff6fb5;
+  background-color: #ecee81;
 
   /* background: rgb(255,111,181);
 background: linear-gradient(68deg, rgba(255,111,181,1) 7%, rgba(255,185,219,1) 100%); */
@@ -11,7 +11,7 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  background-color: #ab46d2;
+  background-color: #8ddfcb;
 
   padding: 20px 0px 20px 0px;
 }
@@ -22,7 +22,7 @@ nav {
 nav a {
   border: solid 1 px black;
   font-size: 1.5rem;
-  color: #55d8c1;
+  color: #82a0d8;
   text-decoration: none;
 }
 
@@ -30,37 +30,11 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* nav a:active {
+img {
+  width: 200px;
+  height: 200px;
+}
 
-} */
-
-/* entire page will be a grid
-
-display: flex;
-height: 100vh;
-width: 100vw;
- center everthing - align and justify
-
-*/
-
-/* .image {
-    border: solid;
-    background-color: #AB46D2;
-   
-    position: absolute;
-    top: 64px;
-    bottom: 0;
-    left: 0; 
-    right: 0;
-    /* background-image: url('path-to-your-image.jpg'); */
-
-/* background-position: center;
-    
-    /* Adjust the height as needed */
-/* text-align: center;
-    color: #fff;
-    padding: 50px;
-/* } */
 .welcomeContainer {
   position: relative;
   border: solid;
@@ -86,8 +60,15 @@ width: 100vw;
     width: 0;
   }
   to {
-    width: 350px;
+    width: 300px;
   }
+}
+
+.homeh1 {
+  font-size: 55px;
+  letter-spacing: 0.1em;
+  font-family: "Montserrat", sans-serif;
+  border: none;
 }
 
 .parallax {
@@ -101,12 +82,13 @@ width: 100vw;
 
 .aboutMeContainer {
   position: relative;
+  background-color: #8ddfcb;
   border: solid;
   width: 1800px;
   height: 800px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 0 auto;
   margin-top: 20px;
@@ -119,7 +101,8 @@ width: 100vw;
 
 .aboutMeText {
   border: solid;
-  width: 100px;
+  width: 300px;
+  height: 300px;
 }
 
 .icons {
@@ -139,13 +122,13 @@ main {
 
 h1 {
   border: solid;
-  background-color: #ab46d2;
+
   margin: 20px;
 }
 
 p {
   border: solid;
-  background-color: #ab46d2;
+
   margin: 20px;
 }
 
@@ -252,6 +235,50 @@ p {
 
 form {
   border: solid;
+  width: 400px;
+  height: 400px;
   margin: 20px;
-  background-color: #ab46d2;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #82a0d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 10px;
+  border: solid;
+}
+button {
+  border: none;
+  color: #fff;
+  background-color: #edb7ed;
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.6em 1.5em;
+}
+
+button:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #05bada66;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
 }

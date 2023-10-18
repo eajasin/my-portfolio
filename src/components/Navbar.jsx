@@ -1,30 +1,31 @@
 import React from "react";
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet } from "react-router-dom";
+import Logo from "./FlowerLogo.png";
 
 function Navbar() {
-    return (
+  return (
+    <div>
+      <nav>
         <div>
-            <nav>
-                <a>
-                <Link to="/">
-        <img src="your-image-source.png" alt="Link to Home" />
-      </Link>
-                </a>
-                <div className="rightNavBar">
-                <a>
-                <Link to="/about">About</Link>
-                </a>
-                <a>
-                <Link to="/projects">Projects</Link>
-                </a>
-                <a>
-                <Link to="/contact">Contact</Link>
-                </a>
-                </div>
-            </nav>
-            <Outlet />
+          <Link to="/">
+            <img src={Logo} alt="Link to Home" />
+          </Link>
         </div>
-    )
+        <div className="rightNavBar">
+          <a>
+            <Link to="/about">About</Link>
+          </a>
+          <a>
+            <Link to="/projects">Projects</Link>
+          </a>
+          <a>
+            <Link to="/contact">Contact</Link>
+          </a>
+        </div>
+      </nav>
+      <Outlet />
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;

@@ -9,7 +9,7 @@ function Contact (){
             <input placeholder="Email"></input>
             <input placeholder="Phone"></input>
             <input placeholder="Questions/Comments"></input>
-            <button>Submit</button>
+            <button className="contactSubmitButton">Submit</button>
             </form>            
         </div>
     )
