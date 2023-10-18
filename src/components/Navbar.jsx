@@ -6,7 +6,9 @@ function Navbar() {
         <div>
             <nav>
                 <a>
-                <Link to="/">Home</Link>
+                <Link to="/">
+        <img src="your-image-source.png" alt="Link to Home" />
+      </Link>
                 </a>
                 <div className="rightNavBar">
                 <a>
