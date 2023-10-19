@@ -159,6 +159,14 @@ img {
   flex-wrap: wrap;
 }
 
+.mySkills > div {
+  background-color: #edb7ed;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+  text-transform: uppercase; /* Your CSS rules for the children of div.mySkills go here */
+}
+
 .footer {
   position: relative;
   width: 100vw;

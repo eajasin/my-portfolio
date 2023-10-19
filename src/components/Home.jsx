@@ -16,19 +16,19 @@ function Home() {
       <section className="parallax" color="white"></section>
 
       <section className="aboutMe">
-        <h2 className="projecth1">Hello</h2>
         <div className="aboutMeContainer">
           <div className="aboutMeText">
-            Stuff about myselfStuff about myselfStuff about myselfStuff about
-            myself Stuff about myselfStuff about myselfStuff about myselfStuff
-            about myselfStuff about myself Stuff about myselfStuff about
-            myselfStuff about myselfStuff about myselfStuff about myselfStuff
+            About Me Stuff about myselfStuff about myselfStuff about myselfStuff
             about myself Stuff about myselfStuff about myselfStuff about
-            myselfStuff about myselfStuff about myselfStuff about myself Stuff
+            myselfStuff about myselfStuff about myself Stuff about myselfStuff
             about myselfStuff about myselfStuff about myselfStuff about
+            myselfStuff about myself Stuff about myselfStuff about myselfStuff
+            about myselfStuff about myselfStuff about myselfStuff about myself
+            Stuff about myselfStuff about myselfStuff about myselfStuff about
             myselfStuff about myselfStuff about myselfStuff about myself
           </div>
           <div className="mySkills">
+            <h2> My Skills </h2>
             <div>Javascript</div>
             <div>React</div>
             <div>CSS</div>
