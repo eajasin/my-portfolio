@@ -1,5 +1,5 @@
 body {
-  background-color: #ecee81;
+  /* background-color: #ecee81; */
 
   /* background: rgb(255,111,181);
 background: linear-gradient(68deg, rgba(255,111,181,1) 7%, rgba(255,185,219,1) 100%); */
@@ -9,14 +9,28 @@ nav {
   position: relative;
   width: 100vw;
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: #8ddfcb;
 
-  padding: 20px 0px 20px 0px;
+  padding: 20px;
+}
+
+.leftNavBar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.myName {
+  margin-left: 10px;
 }
 
 .rightNavBar {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  font-size: 1.6rem;
 }
 
 nav a {
@@ -31,21 +45,36 @@ nav a:hover {
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+.myName {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .welcomeContainer {
   position: relative;
-  border: solid;
-  width: 1800px;
-  height: 800px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  margin-top: 20px;
+
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(236, 238, 129, 1) 50%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg");
 }
 
 .effect {
@@ -86,23 +115,24 @@ img {
   border: solid;
   width: 1800px;
   height: 800px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 .aboutMeImage {
   border: solid;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .aboutMeText {
   border: solid;
   width: 300px;
   height: 300px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .icons {
@@ -121,8 +151,6 @@ main {
 }
 
 h1 {
-  border: solid;
-
   margin: 20px;
 }
 
@@ -204,7 +232,7 @@ p {
   right: 0;
   top: 0;
   transform-origin: center;
-  trsnsform: scale(1) translateZ(0);
+  transform: scale(1) translateZ(0);
   transition:
     filter 200ms linear,
     transform 200ms linear;
@@ -233,6 +261,14 @@ p {
   word-spacing: 100vw;
 }
 
+.formIntro {
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 form {
   border: solid;
   width: 400px;
@@ -249,7 +285,8 @@ form {
 
 input {
   margin: 10px;
-  border: solid;
+  border-radius: 5px;
+  display: block;
 }
 button {
   border: none;

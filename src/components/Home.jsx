@@ -10,38 +10,34 @@ function Home() {
             I'm Elizabeth, and I'm a full-stack developer 👩🏾‍💻
           </span>
         </h2>
-        <button>View my Projects Here</button>
+        <button>My Projects Here</button>
       </section>
 
       <section className="parallax"></section>
 
-      <section className="aboutMeContainer">
-        <div className="aboutMeImage">This will be the image</div>
-        <p className="aboutMeText">
-          Stuff about myselfStuff about myselfStuff about myselfStuff about
-          myself Stuff about myselfStuff about myselfStuff about myselfStuff
-          about myselfStuff about myself Stuff about myselfStuff about
-          myselfStuff about myselfStuff about myselfStuff about myselfStuff
-          about myself Stuff about myselfStuff about myselfStuff about
-          myselfStuff about myselfStuff about myselfStuff about myself Stuff
-          about myselfStuff about myselfStuff about myselfStuff about
-          myselfStuff about myselfStuff about myselfStuff about myself
-        </p>
+      <section className="AboutMe">
+        <h1>Hello</h1>
+        <div className="aboutMeContainer">
+          <div className="aboutMeImage">
+            Stuff about myselfStuff about myselfStuff about myselfStuff about
+            myself Stuff about myselfStuff about myselfStuff about myselfStuff
+            about myselfStuff about myself Stuff about myselfStuff about
+            myselfStuff about myselfStuff about myselfStuff about myselfStuff
+            about myself Stuff about myselfStuff about myselfStuff about
+            myselfStuff about myselfStuff about myselfStuff about myself Stuff
+            about myselfStuff about myselfStuff about myselfStuff about
+            myselfStuff about myselfStuff about myselfStuff about myself
+          </div>
+          <div className="aboutMeText">
+            <div>My Skills</div>
+            <div>My Skills</div>
+            <div>My Skills</div>
+          </div>
+          <button>Contact</button>
+        </div>
       </section>
+      <section>More Stuff Here</section>
     </main>
-
-    // <div>
-
-    //   <p>Stuff about myselfStuff about myselfStuff about myselfStuff about myself
-    //   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-    //   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-    //   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-    //   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-    //   </p>
-    //   <div className="hpImage2"> Image 2</div>
-    //   <div className="icons">Social Media Icons: 😊😊😊</div>
-
-    // </div>
   );
 }
 
