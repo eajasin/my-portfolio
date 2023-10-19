@@ -13,12 +13,12 @@ function Home() {
         <button>My Projects Here</button>
       </section>
 
-      <section className="parallax"></section>
+      <section className="parallax" color="white"></section>
 
-      <section className="AboutMe">
+      <section className="aboutMe">
         <h1>Hello</h1>
         <div className="aboutMeContainer">
-          <div className="aboutMeImage">
+          <div className="aboutMeText">
             Stuff about myselfStuff about myselfStuff about myselfStuff about
             myself Stuff about myselfStuff about myselfStuff about myselfStuff
             about myselfStuff about myself Stuff about myselfStuff about
@@ -28,15 +28,15 @@ function Home() {
             about myselfStuff about myselfStuff about myselfStuff about
             myselfStuff about myselfStuff about myselfStuff about myself
           </div>
-          <div className="aboutMeText">
+          <div className="mySkills">
             <div>My Skills</div>
             <div>My Skills</div>
             <div>My Skills</div>
           </div>
-          <button>Contact</button>
+          <button>Contact</button> make this a link not button
         </div>
       </section>
-      <section>More Stuff Here</section>
+      <section className="footer"></section>
     </main>
   );
 }

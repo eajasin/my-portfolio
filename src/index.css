@@ -68,13 +68,8 @@ img {
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(236, 238, 129, 1) 50%,
-      rgba(255, 255, 255, 1) 100%
-    ),
-    url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg");
+  background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
 }
 
 .effect {
@@ -103,36 +98,58 @@ img {
 .parallax {
   position: relative;
   height: 500px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5wwvMqzCx0_M4DbukVXN-7tDF_M3iXKblw&usqp=CAU");
+  background-image: url("https://images.pexels.com/photos/8092507/pexels-photo-8092507.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
 
-.aboutMeContainer {
+.aboutMe {
   position: relative;
-  background-color: #8ddfcb;
-  border: solid;
-  width: 1800px;
-  height: 800px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(142, 223, 203);
+  background: linear-gradient(
+    279deg,
+    rgba(142, 223, 203, 1) 0%,
+    rgba(201, 237, 228, 1) 99%
+  );
+}
+.aboutMeContainer {
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10rem;
-  margin: 0 auto;
-  margin-top: 20px;
 }
 
-.aboutMeImage {
+.aboutMeText {
   border: solid;
   border-radius: 10px;
 }
 
-.aboutMeText {
+.mySkills {
   border: solid;
   width: 300px;
   height: 300px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
 }
 
 .icons {
@@ -261,6 +278,12 @@ p {
   word-spacing: 100vw;
 }
 
+.contactBackground {
+  background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 100vw;
+  height: 100vh;
+}
+
 .formIntro {
   border: solid;
   display: flex;
@@ -270,23 +293,29 @@ p {
 }
 
 form {
-  border: solid;
-  width: 400px;
-  height: 400px;
-  margin: 20px;
+  max-width: 80rem;
+  width: 50%;
+  height: 550px;
+  margin: 5rem auto 0 auto;
   margin-left: auto;
   margin-right: auto;
-  background-color: #82a0d8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background: url("https://images.pexels.com/photos/7130563/pexels-photo-7130563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  text-align: left;
+  display: block;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 4rem;
+  border-radius: 10px;
 }
 
 input {
   margin: 10px;
   border-radius: 5px;
   display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ebebeb;
+  letter-spacing: 0;
+  background: #f0f0f0;
 }
 button {
   border: none;
