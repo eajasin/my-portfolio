@@ -4,8 +4,8 @@ function Projects() {
   return (
     <div className="fullProjectBackground">
       <section className="formIntro">
-        <h1>These are my projects</h1>
-        <h2>
+        <h1 className="projecth1">My Projects</h1>
+        <h2 className="projecth2">
           Here you will find some of the personal and clients projects that I
           created with each project containing its own case study
         </h2>

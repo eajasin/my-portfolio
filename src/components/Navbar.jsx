@@ -10,7 +10,7 @@ function Navbar() {
           <Link to="/">
             <img src={Me} alt="Link to Home" />
           </Link>
-          <span className="myName"> Elizabeth </span>
+          <span className="myName"> </span>
         </div>
         <div className="rightNavBar">
           <a>

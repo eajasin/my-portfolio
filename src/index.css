@@ -1,5 +1,9 @@
 * {
   font-family: "Montserrat", sans-serif;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -96,8 +100,18 @@ img {
 .homeh1 {
   font-size: 55px;
   letter-spacing: 0.1em;
-
+  color: #edb7ed;
+  font-weight: 800;
   border: none;
+}
+.homeh2 {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #edb7ed;
+  text-decoration: wavy;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #82add8;
 }
 
 .parallax {
@@ -168,7 +182,6 @@ h1 {
 
 p {
   border: solid;
-
   margin: 20px;
 }
 
@@ -184,17 +197,29 @@ p {
   --width-container: 1200px;
 }
 
-* {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .fullProjectBackground {
   background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   width: 100vw;
   height: 100vh;
-  border: solid;
+}
+
+.projecth1 {
+  font-size: 55px;
+  letter-spacing: 0.1em;
+  color: #82add8;
+  font-weight: 800;
+  border: none;
+}
+.projecth2 {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #edb7ed;
+  text-decoration: wavy;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #82add8;
+  margin-left: auto;
+  margin-right: auto;
 }
 .projectGridContainer {
   align-items: flex-start;
@@ -270,7 +295,7 @@ p {
 }
 
 .projectName {
-  color: white;
+  color: #82add8;
   font-size: 1.9rem;
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
   line-height: 1.4;
@@ -284,11 +309,32 @@ p {
 }
 
 .formIntro {
-  border: solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #edb7ed;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.contacth1 {
+  font-size: 55px;
+  letter-spacing: 0.1em;
+  color: #82add8;
+  font-weight: 800;
+  border: none;
+}
+.contacth2 {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #edb7ed;
+  text-decoration: wavy;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #82add8;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 form {
@@ -331,8 +377,9 @@ input:nth-child(8) {
 }
 
 button {
-  border: none;
-  color: #fff;
+  border: solid;
+  color: #82add8;
+  font-weight: 700;
   background-color: #edb7ed;
   border-radius: 20px;
   background-size: 100% auto;

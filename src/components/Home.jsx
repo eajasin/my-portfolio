@@ -5,7 +5,7 @@ function Home() {
     <main>
       <section className="welcomeContainer">
         <h1 className="homeh1">Welcome.</h1>
-        <h2>
+        <h2 className="homeh2">
           <span className="effect">
             I'm Elizabeth, and I'm a full-stack developer 👩🏾‍💻
           </span>
@@ -16,7 +16,7 @@ function Home() {
       <section className="parallax" color="white"></section>
 
       <section className="aboutMe">
-        <h1>Hello</h1>
+        <h2 className="projecth1">Hello</h2>
         <div className="aboutMeContainer">
           <div className="aboutMeText">
             Stuff about myselfStuff about myselfStuff about myselfStuff about
@@ -29,9 +29,10 @@ function Home() {
             myselfStuff about myselfStuff about myselfStuff about myself
           </div>
           <div className="mySkills">
-            <div>My Skills</div>
-            <div>My Skills</div>
-            <div>My Skills</div>
+            <div>Javascript</div>
+            <div>React</div>
+            <div>CSS</div>
+            <div>HTML</div>
           </div>
           <button>Contact</button> make this a link not button
         </div>
