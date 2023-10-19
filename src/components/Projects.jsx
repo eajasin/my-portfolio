@@ -2,8 +2,14 @@ import React from "react";
 
 function Projects() {
   return (
-    <div>
-      <h1>These Are My Projects :)</h1>
+    <div className="fullProjectBackground">
+      <section className="formIntro">
+        <h1>These are my projects</h1>
+        <h2>
+          Here you will find some of the personal and clients projects that I
+          created with each project containing its own case study
+        </h2>
+      </section>
       <section className="projectGridContainer">
         <div className="projectGrid">
           <a className="project" href="#">

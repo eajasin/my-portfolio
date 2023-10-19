@@ -16,8 +16,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #8ddfcb;
-
+  font-weight: 700;
   padding: 20px;
+  color: #82a0d8;
 }
 
 .leftNavBar {
@@ -40,7 +41,7 @@ nav {
 nav a {
   border: solid 1 px black;
   font-size: 1.5rem;
-  color: #82a0d8;
+
   text-decoration: none;
 }
 
@@ -161,16 +162,6 @@ img {
   margin: 20px;
 }
 
-main {
-  height: 150vh;
-
-  overflow-x: hidden;
-  perspective: 1px;
-  perspective-origin: center top;
-  transform-style: preserve-3d;
-  padding: 0 40px;
-}
-
 h1 {
   margin: 20px;
 }
@@ -199,10 +190,14 @@ p {
   padding: 0;
   box-sizing: border-box;
 }
-
+.fullProjectBackground {
+  background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 100vw;
+  height: 100vh;
+  border: solid;
+}
 .projectGridContainer {
   align-items: flex-start;
-  background-color: lightblue;
   display: flex;
   min-height: 100%;
   justify-content: center;
