@@ -19,11 +19,13 @@ function Contact() {
           <label htmlFor="phone"> Phone:</label>
           <input placeholder="Enter Your Phone Number"></input>
           <label htmlFor="message"> Message:</label>
-          <input placeholder="Enter Your Message"></input>
+          <input
+            className="messageImage"
+            placeholder="Enter Your Message"
+          ></input>
           <button className="contactSubmitButton">Submit</button>
         </form>
       </section>
-      <section>Other Section</section>
     </section>
   );
 }
