@@ -13,9 +13,9 @@ function Navbar() {
           <span className="myName"> </span>
         </div>
         <div className="rightNavBar">
-          <a>
+          {/* <a>
             <Link to="/about">ABOUT</Link>
-          </a>
+          </a> */}
           <a>
             <Link to="/projects">PROJECTS</Link>
           </a>

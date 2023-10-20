@@ -363,28 +363,50 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #edb7ed;
+
   font-family: sans-serif;
   font-weight: 500;
 }
 
 .contacth1 {
-  font-size: 55px;
+  font-size: 10rem;
   letter-spacing: 0.1em;
-  color: #82add8;
+  color: #edb7ed;
   font-weight: 800;
   border: none;
+  text-shadow: 2px 2px 4px #000000;
 }
 .contacth2 {
-  font-size: 20px;
+  font-size: 3rem;
   letter-spacing: 0.1em;
+  margin-top: 20px;
   color: #edb7ed;
   text-decoration: wavy;
   border: none;
   margin-bottom: 20px;
-  background-color: #82add8;
-  margin-left: auto;
-  margin-right: auto;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 2px 2px #82add8;
+}
+.homeh1 {
+  font-size: 10rem;
+  letter-spacing: 0.1em;
+  color: #edb7ed;
+  font-weight: 800;
+  border: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+.homeh2 {
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  color: #edb7ed;
+  text-decoration: wavy;
+  border: none;
+  margin-bottom: 20px;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 2px 2px #82add8;
 }
 
 form {

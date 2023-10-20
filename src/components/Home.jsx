@@ -22,20 +22,16 @@ function Home() {
         <h2 className="contacth1">About Me</h2>
         <div className="aboutMeContainer">
           <div className="aboutMeText">
-            Stuff about myselfStuff about myselfStuff about myselfStuff about
-            myself Stuff about myselfStuff about myselfStuff about myselfStuff
-            about myselfStuff about myself Stuff about myselfStuff about
-            myselfStuff about myselfStuff about myselfStuff about myselfStuff
-            about myself Stuff about myselfStuff about myselfStuff about
-            myselfStuff about myselfStuff about myselfStuff about myself Stuff
-            about myselfStuff about myselfStuff about myselfStuff about
-            myselfStuff about myselfStuff about myselfStuff about myself I'm
-            open to Job opportunities where I can contribute, learn and grow. If
-            you have a good opportunity that matches my skills and experience
-            then don't hesitate to contact me
+            Hello there! I'm a passionate and dedicated individual on a journey
+            to transition into software development. Although I'm relatively new
+            to programming, I have been working diligently to build my skills.
+            My goal is to become a junior full-stack developer. I'm open to job
+            opportunities where I can contribute, learn and grow. If you'd like
+            to get in touch with me, please don't hesistate to send me a
+            message.
           </div>
           <div className="mySkills">
-            <div> My Skills </div>
+            <div> Programming Skills </div>
             <div>Javascript</div>
             <div>React</div>
             <div>CSS</div>
@@ -50,9 +46,6 @@ function Home() {
           <div className="footerLeft">
             <img src={Me} alt="Link to Home" />
             Elizabeth, Full Stack Developer
-          </div>
-          <div className="footerRight">
-            <h2>SOCIAL</h2>
             <a
               target="_blank"
               rel="noreferrer"
@@ -68,24 +61,14 @@ function Home() {
               <img src={Github} alt="gitHub Page" />
             </a>
           </div>
+          <div className="footerRight">
+            <h2></h2>
+          </div>
         </div>
-        <div> 2023 Website </div>
+        {/* <div> © 2023 </div> */}
       </footer>
     </main>
   );
 }
 
 export default Home;
-
-// <div>
-
-//   <p>Stuff about myselfStuff about myselfStuff about myselfStuff about myself
-//   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-//   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-//   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-//   Stuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myselfStuff about myself
-//   </p>
-//   <div className="hpImage2"> Image 2</div>
-//   <div className="icons">Social Media Icons: 😊😊😊</div>
-
-// </div>
