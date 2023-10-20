@@ -1,4 +1,6 @@
 import React from "react";
+import Calculator from "./calculator.png";
+import Chess from "./chess.png";
 
 function Projects() {
   return (
@@ -16,22 +18,22 @@ function Projects() {
             <div
               className="projectBackground"
               style={{
-                backgroundImage: `url(https://media.cnn.com/api/v1/images/stellar/prod/170407220916-04-iconic-mountains-matterhorn-restricted.jpg?q=w_2512,h_1413,x_0,y_0,c_fill/h_618)`,
+                backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdDpFDimJGlkWdsdG1k0mld2lgZs50cLxCZQ&usqp=CAU)`,
               }}
             ></div>
             <div className="projectContentContainer">
-              <h3 className="projectName">NectarNums Calculator</h3>
+              <h3 className="projecth3">NectarNums Calculator</h3>
             </div>
           </a>
           <a className="project" href="#">
             <div
               className="projectBackground"
               style={{
-                backgroundImage: `url(https://media.cnn.com/api/v1/images/stellar/prod/170407220916-04-iconic-mountains-matterhorn-restricted.jpg?q=w_2512,h_1413,x_0,y_0,c_fill/h_618)`,
+                backgroundImage: `url(https://www.chessgames.com/fen/p713/7r_1pR3b1_p3qpk1_3p4_3Bp1bQ_1P2P3_P2R1PP1_6K1.gif)`,
               }}
             ></div>
             <div className="projectContentContainer">
-              <h3 className="projectName">NectarNums Calculator</h3>
+              <h3 className="projecth3">No Check Chess</h3>
             </div>
           </a>
         </div>

@@ -19,10 +19,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #8ddfcb;
+  background: rgb(142, 223, 203);
+  background: linear-gradient(
+      279deg,
+      rgba(142, 223, 203, 0.8) 0%,
+      rgba(201, 237, 228, 0.9) 99%
+    ),
+    url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg");
   font-weight: 700;
   padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: #82a0d8;
+  cursor: pointer;
 }
 
 .leftNavBar {
@@ -93,25 +102,29 @@ img {
     width: 0;
   }
   to {
-    width: 300px;
+    width: 1300px;
   }
 }
 
 .homeh1 {
-  font-size: 55px;
+  font-size: 10rem;
   letter-spacing: 0.1em;
   color: #edb7ed;
   font-weight: 800;
   border: none;
+  text-shadow: 2px 2px 4px #000000;
 }
 .homeh2 {
-  font-size: 20px;
+  font-size: 3rem;
   letter-spacing: 0.1em;
+  margin-top: 20px;
   color: #edb7ed;
   text-decoration: wavy;
   border: none;
   margin-bottom: 20px;
-  background-color: #82add8;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 2px 2px #82add8;
 }
 
 .parallax {
@@ -133,55 +146,78 @@ img {
   align-items: center;
   background: rgb(142, 223, 203);
   background: linear-gradient(
-    279deg,
-    rgba(142, 223, 203, 1) 0%,
-    rgba(201, 237, 228, 1) 99%
-  );
+      279deg,
+      rgba(142, 223, 203, 0.8) 0%,
+      rgba(201, 237, 228, 0.8) 99%
+    ),
+    url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg");
 }
 .aboutMeContainer {
-  width: 100vw;
-  height: 100vh;
+  max-width: 100%;
+  padding: 20px;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10rem;
 }
 
 .aboutMeText {
-  border: solid;
+  /* Border style */
   border-radius: 10px;
+  padding: 10px;
 }
 
 .mySkills {
-  border: solid;
-  width: 300px;
-  height: 300px;
+  max-width: 100%;
+  width: 400px;
+  height: 100px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .mySkills > div {
-  background-color: #edb7ed;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 20px;
-  text-transform: uppercase; /* Your CSS rules for the children of div.mySkills go here */
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.6rem;
+  background: #edb7ed;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #82add8;
 }
 
-.footer {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+footer {
+  /* Text color */
+  padding: 20px; /* Add spacing around the content inside the footer */
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
   background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
 }
 
-.icons {
-  border: solid;
-  margin: 20px;
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 0;
+}
+
+.footerLeft {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footerLeft img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
 }
 
 h1 {
@@ -228,6 +264,12 @@ p {
   background-color: #82add8;
   margin-left: auto;
   margin-right: auto;
+}
+
+.projecth3 {
+  font-weight: 1000;
+  color: #82add8;
+  font-size: 2em;
 }
 .projectGridContainer {
   align-items: flex-start;
@@ -394,6 +436,8 @@ button {
   font-family: inherit;
   font-size: 17px;
   padding: 0.6em 1.5em;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
 
 button:hover {
