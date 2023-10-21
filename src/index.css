@@ -39,7 +39,7 @@ nav {
   display: flex;
   align-items: center;
 
-  width: 500px;
+  width: 100vw;
 }
 
 .myName {
@@ -51,7 +51,7 @@ nav {
 .rightNavBar {
   display: flex;
   justify-content: space-around;
-  width: 400px;
+  width: 100vw;
   font-size: 1.6rem;
   text-shadow: 1px 1px black;
 }
@@ -326,6 +326,7 @@ p {
 
 .fullProjectBackground {
   background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }
@@ -337,6 +338,7 @@ p {
   font-weight: 800;
   border: none;
   text-shadow: 2px 2px 4px #000000;
+  margin-top: 30px;
 }
 .projecth2 {
   font-size: 1.5rem;
@@ -369,6 +371,7 @@ p {
   min-height: 100%;
   justify-content: center;
   padding: var(--spacing-xxl) var(--spacing-l);
+  margin-top: -20px;
 }
 
 .projectGrid {
@@ -469,6 +472,7 @@ p {
   font-weight: 800;
   border: none;
   text-shadow: 2px 2px 4px #000000;
+  margin-top: 30px;
 }
 .contacth2 {
   font-size: 1.5rem;
@@ -517,6 +521,7 @@ form {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   padding: 4rem;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 input {
