@@ -13,7 +13,9 @@ function Home() {
             I'm Elizabeth, and I'm a full-stack developer 👩🏾‍💻
           </span>
         </h2>
-        <button>My Projects</button>
+        <a className="projectLink" href="https://xdymk2-5173.csb.app/projects">
+          My Projects
+        </a>
       </section>
 
       <section className="parallax" color="white"></section>
@@ -36,8 +38,8 @@ function Home() {
             <div>CSS</div>
             <div>HTML</div>
           </div>
-          <a className="contactLink" href="contact-page.html">
-            Contact
+          <a className="contactLink" href="https://xdymk2-5173.csb.app/contact">
+            Contact Me
           </a>
         </div>
       </section>
@@ -67,8 +69,6 @@ function Home() {
             </div>
           </div>
         </div>
-
-        {/* <div> © 2023 </div> */}
       </footer>
     </main>
   );

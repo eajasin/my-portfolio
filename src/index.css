@@ -145,6 +145,23 @@ img {
   box-shadow: 2px 2px 2px 2px #82add8;
 }
 
+.projectLink {
+  border: solid;
+  color: #82add8;
+  font-weight: 700;
+  background-color: #edb7ed;
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.6em 1.5em;
+  text-transform: uppercase;
+  margin-top: 20px;
+  width: 179px;
+  text-decoration: none;
+  margin-left: 5rem;
+}
+
 .parallax {
   position: relative;
   height: 500px;
@@ -236,7 +253,7 @@ img {
   padding: 0.6em 1.5em;
   text-transform: uppercase;
   margin-top: 20px;
-  width: 138px;
+  width: 170px;
   text-decoration: none;
   margin-left: 5rem;
 }
@@ -429,6 +446,8 @@ p {
 
 .contactBackground {
   background: url("https://images.pexels.com/photos/1037998/pexels-photo-1037998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }
@@ -488,7 +507,7 @@ p {
 form {
   max-width: 80rem;
   width: 50%;
-  height: 550px;
+  height: 50%;
   margin: 5rem auto 0 auto;
   margin-left: auto;
   margin-right: auto;
@@ -536,6 +555,7 @@ button {
   padding: 0.6em 1.5em;
   text-transform: uppercase;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 button:hover {

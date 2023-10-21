@@ -24,7 +24,10 @@ function Projects() {
               <h3 className="projecth3">NectarNums Calculator</h3>
             </div>
           </a>
-          <a className="project" href="">
+          <a
+            className="project"
+            href="https://github.com/eajasin/nebula-content/tree/main/Canvas/Canvas%20-%20Chess%20Game"
+          >
             <div
               className="projectBackground"
               style={{
@@ -32,10 +35,13 @@ function Projects() {
               }}
             ></div>
             <div className="projectContentContainer">
-              <h3 className="projecth3">No Check Chess</h3>
+              <h3 className="projecth3">No Check Chess Game</h3>
             </div>
           </a>
-          <a className="project" href="#">
+          <a
+            className="project"
+            href="https://github.com/eajasin/nebula-content/tree/main/pomodoroTimer-app"
+          >
             <div
               className="projectBackground"
               style={{
@@ -43,10 +49,13 @@ function Projects() {
               }}
             ></div>
             <div className="projectContentContainer">
-              <h3 className="projecth3">Pomodorable Timer</h3>
+              <h3 className="projecth3">Pomodo-rable Timer</h3>
             </div>
           </a>
-          <a className="project" href="#">
+          <a
+            className="project"
+            href="https://github.com/eajasin/nebula-content/blob/main/passwordGenerator.html"
+          >
             <div
               className="projectBackground"
               style={{

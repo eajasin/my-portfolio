@@ -1,4 +1,7 @@
 import React from "react";
+import Me from "./toonMe.jpg";
+import LinkedIn from "./linkedin.png";
+import Github from "./github.jpg";
 
 function Contact() {
   return (
