@@ -8,9 +8,9 @@ function Navbar() {
       <nav>
         <div className="leftNavBar">
           <Link to="/">
-            <img src={Me} alt="Link to Home" />
+            <img className="logo" src={Me} alt="Link to Home" />
           </Link>
-          <span className="myName"> </span>
+          <span className="myName"> Full-Stack Developer</span>
         </div>
         <div className="rightNavBar">
           {/* <a>

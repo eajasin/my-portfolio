@@ -4,11 +4,11 @@ function Contact() {
   return (
     <section className="contactBackground">
       <section className="formIntro">
-        <h1 className="contacth1">Contact</h1>
-        <h2 className="contacth2">
+        <h1 className="contacth1">Contact Me</h1>
+        {/* <h2 className="contacth2">
           Feel free to contact me by submitting the form below, and I will get
           back to you as soon as possible.
-        </h2>
+        </h2> */}
       </section>
       <section>
         <form>

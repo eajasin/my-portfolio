@@ -31,24 +31,29 @@ nav {
   padding-left: 30px;
   padding-right: 30px;
   color: #82a0d8;
-  cursor: pointer;
+
+  transition: color 0.3s;
 }
 
 .leftNavBar {
   display: flex;
   align-items: center;
-  cursor: pointer;
+
+  width: 500px;
 }
 
 .myName {
   margin-left: 10px;
+  text-shadow: 1px 1px black;
+  cursor: pointer;
 }
 
 .rightNavBar {
   display: flex;
-  justify-content: space-between;
-  width: 600px;
+  justify-content: space-around;
+  width: 400px;
   font-size: 1.6rem;
+  text-shadow: 1px 1px black;
 }
 
 nav a {
@@ -58,8 +63,20 @@ nav a {
   text-decoration: none;
 }
 
+nav a:link {
+  color: #82add8;
+}
+
+nav a:visited {
+  color: #82add8;
+}
+
 nav a:hover {
   text-decoration: underline;
+}
+
+nav a:active {
+  color: #edb7ed;
 }
 
 img {
@@ -68,6 +85,7 @@ img {
   border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
+  cursor: pointer;
 }
 
 .myName {
@@ -158,13 +176,22 @@ img {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10rem;
+  grid-gap: 5rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-self: center;
 }
 
 .aboutMeText {
   /* Border style */
   border-radius: 10px;
   padding: 10px;
+  color: #82add8;
+  font-size: 2em;
+  margin-left: 5rem;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
+  margin-bottom: -75px;
 }
 
 .mySkills {
@@ -173,9 +200,19 @@ img {
   height: 100px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
-.mySkills > div {
+.mySkills div:first-child {
+  color: #82add8;
+  background-color: none;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  letter-spacing: 1.2px;
+  text-decoration: underline;
+}
+
+.mySkills div:not(:first-child) {
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
@@ -184,6 +221,31 @@ img {
   border-radius: 5px;
   font-weight: 600;
   color: #82add8;
+  box-shadow: 2px 2px #82add8;
+}
+
+.contactLink {
+  border: solid;
+  color: #82add8;
+  font-weight: 700;
+  background-color: #edb7ed;
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.6em 1.5em;
+  text-transform: uppercase;
+  margin-top: 20px;
+  width: 138px;
+  text-decoration: none;
+  margin-left: 5rem;
+}
+
+.contactLink:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 footer {
@@ -197,18 +259,18 @@ footer {
 }
 
 .footerContainer {
-  display: flex;
-  justify-content: space-between;
   padding: 0.1rem 0;
 }
 
 .footerLeft {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   cursor: pointer;
-  color: #333;
+  color: #edb7ed;
+  text-shadow: 2px 2px black;
   transition: color 0.3s;
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
@@ -218,6 +280,10 @@ footer {
   height: 150px;
   width: 150px;
   border-radius: 100px;
+}
+
+.iconContainer {
+  margin-right: 0;
 }
 
 h1 {
@@ -248,28 +314,37 @@ p {
 }
 
 .projecth1 {
-  font-size: 55px;
-  letter-spacing: 0.1em;
-  color: #82add8;
-  font-weight: 800;
-  border: none;
-}
-.projecth2 {
-  font-size: 20px;
+  font-size: 4rem;
   letter-spacing: 0.1em;
   color: #edb7ed;
-  text-decoration: wavy;
+  font-weight: 800;
   border: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+.projecth2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  color: #edb7ed;
+  text-decoration: wavy;
+  border: solid;
+  box-shadow: 1px 1px 1px 1px;
   margin-bottom: 20px;
-  background-color: #82add8;
-  margin-left: auto;
-  margin-right: auto;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
 }
 
 .projecth3 {
-  font-weight: 1000;
-  color: #82add8;
+  font-weight: bold;
+
   font-size: 2em;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  text-shadow: 0 0 10px #82add8; /* Adjust values as needed */
+  color: #fff;
+
+  /* background-color: #edb7ed; */
 }
 .projectGridContainer {
   align-items: flex-start;
@@ -369,7 +444,7 @@ p {
 }
 
 .contacth1 {
-  font-size: 10rem;
+  font-size: 4rem;
   letter-spacing: 0.1em;
   color: #edb7ed;
   font-weight: 800;
@@ -377,16 +452,17 @@ p {
   text-shadow: 2px 2px 4px #000000;
 }
 .contacth2 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1em;
   margin-top: 20px;
   color: #edb7ed;
   text-decoration: wavy;
-  border: none;
+  border: solid;
+  box-shadow: 1px 1px 1px 1px;
   margin-bottom: 20px;
   font-weight: 800;
   text-shadow: 2px 2px 4px #000000;
-  box-shadow: 2px 2px 2px 2px #82add8;
+  text-align: center;
 }
 .homeh1 {
   font-size: 10rem;
@@ -466,10 +542,10 @@ button:hover {
   background-position: right center;
   background-size: 200% auto;
   -webkit-animation: pulse 2s infinite;
-  animation: pulse512 1.5s infinite;
+  animation: pulse 1.5s infinite;
 }
 
-@keyframes pulse512 {
+@keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 #05bada66;
   }

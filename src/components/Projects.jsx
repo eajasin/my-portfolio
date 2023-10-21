@@ -7,33 +7,54 @@ function Projects() {
     <div className="fullProjectBackground">
       <section className="formIntro">
         <h1 className="projecth1">My Projects</h1>
-        <h2 className="projecth2">
-          Here you will find some of the personal and clients projects that I
-          created with each project containing its own case study
-        </h2>
       </section>
       <section className="projectGridContainer">
         <div className="projectGrid">
-          <a className="project" href="#">
+          <a
+            className="project"
+            href="https://github.com/eajasin/Calculator-Project"
+          >
             <div
               className="projectBackground"
               style={{
-                backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdDpFDimJGlkWdsdG1k0mld2lgZs50cLxCZQ&usqp=CAU)`,
+                background: `url(https://images.pexels.com/photos/1314536/pexels-photo-1314536.jpeg?auto=compress&cs=tinysrgb&w=1600)`,
               }}
             ></div>
             <div className="projectContentContainer">
               <h3 className="projecth3">NectarNums Calculator</h3>
             </div>
           </a>
-          <a className="project" href="#">
+          <a className="project" href="">
             <div
               className="projectBackground"
               style={{
-                backgroundImage: `url(https://www.chessgames.com/fen/p713/7r_1pR3b1_p3qpk1_3p4_3Bp1bQ_1P2P3_P2R1PP1_6K1.gif)`,
+                backgroundImage: `url(https://images.pexels.com/photos/1660753/pexels-photo-1660753.jpeg?auto=compress&cs=tinysrgb&w=1600)`,
               }}
             ></div>
             <div className="projectContentContainer">
               <h3 className="projecth3">No Check Chess</h3>
+            </div>
+          </a>
+          <a className="project" href="#">
+            <div
+              className="projectBackground"
+              style={{
+                backgroundImage: `url(https://images.pexels.com/photos/1159675/pexels-photo-1159675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
+              }}
+            ></div>
+            <div className="projectContentContainer">
+              <h3 className="projecth3">Pomodorable Timer</h3>
+            </div>
+          </a>
+          <a className="project" href="#">
+            <div
+              className="projectBackground"
+              style={{
+                backgroundImage: `url(https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1600)`,
+              }}
+            ></div>
+            <div className="projectContentContainer">
+              <h3 className="projecth3">PassWord Crafter</h3>
             </div>
           </a>
         </div>
